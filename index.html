@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Yadagouda | Distributed Systems Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/new-styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <a href="/" class="logo">Akash Yadagouda</a>
+                <nav class="nav">
+                    <a href="#blogs">Blogs</a>
+                    <a href="#papers">Papers</a>
+                    <a href="#guides">Guides</a>
+                    <a href="#about">About</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Hey, I am Akash</h1>
+            <p class="subtitle">Distributed systems engineer, researcher, and writer</p>
+            <p class="description">
+                I build scalable distributed systems and share deep insights on system design, Kafka, microservices, and databases. 
+                I'm passionate about understanding how systems work at scale and documenting my learnings.
+            </p>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="mailto:akash@example.com">Email</a>
+            </div>
+        </section>
+
+        <!-- Recent Blog Posts -->
+        <section id="blogs" class="section">
+            <div class="section-header">
+                <h2>Recent blog posts</h2>
+                <a href="/blogs" class="view-all">Full archive →</a>
+            </div>
+            <div class="posts-list">
+                <article class="post-item">
+                    <div class="post-date">Jan 15, 2026</div>
+                    <div class="post-content">
+                        <h3><a href="#">Understanding Kafka's Replication Protocol</a></h3>
+                        <p>A deep dive into how Kafka ensures durability and consistency across distributed brokers. We'll explore the in-sync replicas (ISR) concept and how it impacts your system's reliability.</p>
+                    </div>
+                </article>
+                <article class="post-item">
+                    <div class="post-date">Jan 10, 2026</div>
+                    <div class="post-content">
+                        <h3><a href="#">CAP Theorem in Practice: Building Consistent Systems</a></h3>
+                        <p>Examining the CAP theorem and how it applies to real-world system design decisions. Learn when to prioritize consistency over availability and the trade-offs involved.</p>
+                    </div>
+                </article>
+                <article class="post-item">
+                    <div class="post-date">Jan 5, 2026</div>
+                    <div class="post-content">
+                        <h3><a href="#">Building Resilient Microservices with Circuit Breakers</a></h3>
+                        <p>Implementing circuit breaker patterns to prevent cascading failures in microservice architectures. We'll explore implementation strategies and best practices.</p>
+                    </div>
+                </article>
+                <article class="post-item">
+                    <div class="post-date">Dec 28, 2025</div>
+                    <div class="post-content">
+                        <h3><a href="#">SQL Query Optimization: From Theory to Practice</a></h3>
+                        <p>Practical techniques for optimizing SQL queries in large-scale systems. Learn about indexing strategies, query planning, and how to identify bottlenecks.</p>
+                    </div>
+                </article>
+                <article class="post-item">
+                    <div class="post-date">Dec 20, 2025</div>
+                    <div class="post-content">
+                        <h3><a href="#">Raft Consensus Algorithm Explained</a></h3>
+                        <p>A comprehensive guide to understanding the Raft consensus algorithm. We'll break down leader election, log replication, and safety guarantees.</p>
+                    </div>
+                </article>
+                <article class="post-item">
+                    <div class="post-date">Dec 15, 2025</div>
+                    <div class="post-content">
+                        <h3><a href="#">Event Sourcing: Building Audit Trails at Scale</a></h3>
+                        <p>Exploring event sourcing as an architectural pattern for building systems with complete audit trails. Learn how to implement and scale event stores.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Papers Section -->
+        <section id="papers" class="section">
+            <div class="section-header">
+                <h2>Recent papers</h2>
+                <a href="/papershelf" class="view-all">Papershelf →</a>
+            </div>
+            <div class="papers-list">
+                <article class="paper-item">
+                    <h3><a href="#" target="_blank">Designing Data-Intensive Applications</a></h3>
+                    <p>A comprehensive guide to building reliable, scalable, and maintainable systems. Essential reading for distributed systems engineers.</p>
+                </article>
+                <article class="paper-item">
+                    <h3><a href="#" target="_blank">The Google File System</a></h3>
+                    <p>Foundational paper on distributed file systems. Explores how Google built a scalable, fault-tolerant file system for large-scale data processing.</p>
+                </article>
+                <article class="paper-item">
+                    <h3><a href="#" target="_blank">Bigtable: A Distributed Storage System for Structured Data</a></h3>
+                    <p>Google's distributed database system. Learn about wide-column stores and how to design systems for massive scale.</p>
+                </article>
+                <article class="paper-item">
+                    <h3><a href="#" target="_blank">MapReduce: Simplified Data Processing on Large Clusters</a></h3>
+                    <p>The foundational paper on distributed data processing. Understand how to parallelize computation across clusters.</p>
+                </article>
+                <article class="paper-item">
+                    <h3><a href="#" target="_blank">Raft: In Search of an Understandable Consensus Algorithm</a></h3>
+                    <p>The Raft consensus algorithm paper. More understandable than Paxos, widely used in modern distributed systems.</p>
+                </article>
+                <article class="paper-item">
+                    <h3><a href="#" target="_blank">Kafka: A Distributed Streaming Platform</a></h3>
+                    <p>The original Kafka paper. Understand the architecture and design decisions behind one of the most important systems in modern data infrastructure.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Guides Section -->
+        <section id="guides" class="section">
+            <div class="section-header">
+                <h2>From the First Principles</h2>
+                <a href="/guides" class="view-all">All topics →</a>
+            </div>
+            <div class="guides-list">
+                <article class="guide-item">
+                    <h3><a href="#">Distributed Systems Fundamentals</a></h3>
+                    <p>In-depth guide covering the fundamentals of distributed systems including consistency models, fault tolerance, and system design principles.</p>
+                </article>
+                <article class="guide-item">
+                    <h3><a href="#">Kafka Internals</a></h3>
+                    <p>A comprehensive deep-dive into how Kafka works internally. From brokers to consumers, understand every component.</p>
+                </article>
+                <article class="guide-item">
+                    <h3><a href="#">Database Internals</a></h3>
+                    <p>Explore how databases work under the hood. Learn about indexing, query optimization, and transaction management.</p>
+                </article>
+                <article class="guide-item">
+                    <h3><a href="#">Microservices Architecture</a></h3>
+                    <p>Design patterns and best practices for building microservice architectures. From service discovery to distributed tracing.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <h2>About me</h2>
+            <p>I'm a distributed systems engineer with a passion for building scalable, fault-tolerant systems that power modern applications. With expertise in Kafka, microservices, SQL databases, and Java, I focus on solving complex challenges in system design and data consistency.</p>
+            <p>Beyond engineering, I'm deeply invested in research and knowledge sharing. I regularly read foundational papers on distributed systems, study real-world implementations, and document my learnings through technical articles and guides. I believe in the power of sharing knowledge to elevate the entire engineering community.</p>
+            <p>My approach combines theoretical understanding with practical implementation, ensuring that every system I design is both elegant and production-ready.</p>
+            <div class="expertise-list">
+                <h3>Core Expertise</h3>
+                <ul>
+                    <li><strong>Distributed Systems:</strong> Consensus algorithms, system design, fault tolerance</li>
+                    <li><strong>Kafka & Event Streaming:</strong> Architecture, stream processing, event-driven design</li>
+                    <li><strong>SQL & Databases:</strong> Query optimization, indexing, distributed transactions</li>
+                    <li><strong>Microservices & Java:</strong> Service patterns, communication, performance tuning</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <h2>Engineering Newsletter</h2>
+            <p>Weekly essays on distributed systems, system design, and deep dives into clever algorithms.</p>
+            <div class="newsletter-links">
+                <a href="#" class="newsletter-btn">Subscribe on LinkedIn</a>
+                <a href="#" class="newsletter-btn">Subscribe on Substack</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Content</h4>
+                    <ul>
+                        <li><a href="/blogs">Blogs</a></li>
+                        <li><a href="/papershelf">Papershelf</a></li>
+                        <li><a href="/guides">Guides</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">System Design Masterclass</a></li>
+                        <li><a href="#">Kafka Internals</a></li>
+                        <li><a href="#">Database Fundamentals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                        <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                        <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:akash@example.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Akash Yadagouda. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
